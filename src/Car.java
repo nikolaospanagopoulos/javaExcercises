@@ -35,4 +35,12 @@ public class Car  {
     public void setTopSpeed(double topSpeed) {
         this.topSpeed = topSpeed;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", topSpeed=" + topSpeed +
+                '}';
+    }
 }
